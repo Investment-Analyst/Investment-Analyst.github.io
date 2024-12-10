@@ -43,7 +43,7 @@ header-img: "img/post-bg-rwd.jpg"
 </div> -->
 
 <!-- Handle Language Change -->
-<script type="text/javascript">
+<!--<script type="text/javascript">
     // get nodes
     var $zh = document.querySelector(".zh");
     var $en = document.querySelector(".en");
@@ -82,11 +82,11 @@ header-img: "img/post-bg-rwd.jpg"
     _render();
 </script>
 
-
+<!--
 <!-- Gitalk 评论 start  -->
-{% if site.gitalk.enable %}
+<!--{% if site.gitalk.enable %}
 <!-- Gitalk link  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<!--<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
 <div id="gitalk-container"></div>
@@ -106,7 +106,7 @@ header-img: "img/post-bg-rwd.jpg"
 <!-- Gitalk end -->
 
  <!-- disqus 评论框 start  -->
-{% if site.disqus.enable %}
+<!--{% if site.disqus.enable %}
 
 <div class="comment">
     <div id="disqus_thread" class="disqus-thread">
@@ -115,7 +115,7 @@ header-img: "img/post-bg-rwd.jpg"
 <!-- disqus 评论框 end -->
 
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
+<!--<script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus.username}}";
     var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
@@ -128,5 +128,5 @@ header-img: "img/post-bg-rwd.jpg"
     })();
 </script>
 <!-- disqus 公共JS代码 end -->
-{% endif %}
+<!--{% endif %}
 
