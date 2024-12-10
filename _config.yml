@@ -2,7 +2,7 @@
 title: Investment Analyst
 SEOTitle: 產業分析機器人 | Investment Analyst
 header-img: img/post-bg-desk.jpg
-email: xxx@gmail.com
+#email: xxx@gmail.com
 description: "Every failure is leading towards success."
 keyword: "Investment Analyst, 產業分析"
 url: "http://investment-analyst.github.io"          # your host, for absolute URL
@@ -22,8 +22,7 @@ RSS: false
 zhihu_username:     hang-kong-yu-zi-shao
 github_username:    investment-analyst
 facebook_username:  61553331276874
-#twitter_username:   qiubaiying
-
+telegram_username:   stockstock123456
 
 
 
